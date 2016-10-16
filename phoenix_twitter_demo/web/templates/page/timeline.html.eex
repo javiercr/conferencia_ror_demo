@@ -1,0 +1,5 @@
+<!-- /web/templates/page/timeline.html.eex -->
+
+<script>window.nickname = "<%= @nickname %>";</script>
+<div id="messages" ></div>
+<input id="chat-input" type="text"></input>

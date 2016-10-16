@@ -1,0 +1,8 @@
+<!-- /app/views/page/index.html.erb -->
+
+<h1>Welcome to TwitterDemo!</h1>
+<%= form_tag timeline_path, method: "get" do %>
+  <label for="nickname">Nickname</label>:
+  <input type="text" name="nickname"></input>
+  <button>Connect!</button>
+<% end %>

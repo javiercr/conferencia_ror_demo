@@ -1,0 +1,8 @@
+<%# /web/templates/page/index.html.eex %>
+
+<h1>Welcome to TwitterDemo!</h1>
+<%= form_tag(page_path(@conn, :timeline), method: "get") do %>
+  <label for="nickname">Nickname</label>:
+  <input type="text" name="nickname"></input>
+  <button>Connect!</button>
+<% end %>
